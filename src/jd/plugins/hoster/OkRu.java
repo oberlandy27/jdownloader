@@ -106,7 +106,7 @@ public class OkRu extends PluginForHost {
                 dllink = dllink.replace(url_quality, "st.mq=2");
             } else {
                 /* Prefer highest quality available */
-                dllink = dllink.replace(url_quality, "st.mq=5");
+                dllink = dllink.replace(url_quality, "st.mq=6");
             }
         }
         final String ext = getFileNameExtensionFromString(dllink, ".mp4");
